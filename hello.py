@@ -22,3 +22,6 @@ def fizzBuzzPrint(n):
 
 print("'Hello, git!'")
 
+n = int(input("Fizz Buzz #? "))
+
+fizzBuzzIterative(1, n)
