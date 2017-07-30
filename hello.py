@@ -1,8 +1,8 @@
 # hello.py
 # says 'Hello, git!'
 # also does fizzBuzz
-# development branch
-#
+# hundred-fizz branch
+# prints up to 100
 
 def fizzBuzzIterative(start, end):
     for i in range(start, end):
@@ -22,6 +22,6 @@ def fizzBuzzPrint(n):
 
 print("'Hello, git!'")
 
-n = int(input("Fizz Buzz #? "))
+n = 100
 
 fizzBuzzIterative(1, n)
